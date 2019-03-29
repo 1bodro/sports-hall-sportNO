@@ -1,0 +1,265 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="">
+	<meta name="description" content="">
+	<meta name="keywords" content="">
+	<meta name="author" content="bodro">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>NO тренажерный зал</title>
+	<link rel="shortcut icon" href="image/logo/logo.ico" type="image/x-icon">
+	<link href="css/animate.css" rel="stylesheet">
+	<link href="css/adaptive-modal.css" rel="stylesheet">
+	<link href="css/slider-style.css" rel="stylesheet">
+	<link href="fonts/Gilroy/stylesheet.css" rel="stylesheet">
+	<link href="css/main.css" rel="stylesheet">
+</head>
+
+<body>
+
+	<div class="areaForLoader">
+		<div class="preloader">
+			<span>loading</span></div>
+	</div>
+
+	<div id="part-top" class="container">
+		<header>
+			<a href="#">
+				<div class="header-logo">
+					<image class="logo" src="image/logo/logo.png" alt="" title="" />
+					<div class="slogan">
+						<span>тренажерный зал</span>
+						<span>киев, львов, одесса</span>
+					</div>
+				</div>
+			</a>
+			<div class="header-contact">
+				<div class="header-contact-info">
+					<div class="header-contact-info_tel">
+						<span> 093 084 62 13</span>
+					</div>
+					<div class="header-contact-info_hour">
+						<span>Каждый день с 09-00 до 23-00</span>
+					</div>
+				</div>
+				<a class="popup-modal" href="#form"> <img class="callform header-contact-info_FormToCall" src="image/call.png" alt="" title=""></a>
+			</div>
+			<div class="call-to-us">
+				<form class="call-to-us-container" id="form" name="form" method="post">
+					<input type="text" class="putName" name="name" placeholder="Ваше имя" autocomplete="off" required>
+					<input type="tel" class="putPhone" name="phone" autocomplete="off" placeholder="Ваш телефон" required>
+					<input type="text" class="putNumber" name="date" placeholder="Во сколько нам перезвонить?">
+					<input type="submit" name="submit" class="call-to-us-btn" value="ЗАКАЗАТЬ ЗВОНОК">
+				</form>
+				<span class="close-modal">X</span>
+			</div>
+		</header>
+		<div class="topmenu-container">
+
+			<a class="active" href="#part-top"></a>
+			<a href="#part-2"></a>
+			<a href="#part-3"></a>
+			<a href="#part-4"></a>
+			<a href="#part-5"></a>
+
+		</div>
+		<canvas id="canvas"></canvas>
+		<div class="main">
+			<div data-wow-duration="2s" data-wow-offset="50" data-wow-delay="400" class="wow fadeInDown container-style part_1">
+				<div class="part_1_girl">
+					<img class="part_1_girl_img" src="image/girl_1.png" alt="" title="" />
+
+					<a class="active-point part_1-point girl-point-1">
+                    </a>
+					<a class="part_1-point girl-point-2">
+                    </a>
+					<a class="part_1-point girl-point-3">
+                    </a>
+					<a class="part_1-point girl-point-4">
+                    </a>
+
+				</div>
+				<div class="part_1_form">
+					<form action="" class="form-1">
+						<div class="part_1_form-container">
+							<span class="part_1_form-header-1">Спортивные</span>
+							<span class="part_1_form-header-2">Ноги</span>
+							<input class="input-form-1 part_1_form-name" type="text" placeholder="Name" name="txtname">
+							<input class="input-form-1 part_1_form-mail" type="email" placeholder="e-mail" name="txtemail">
+							<a href="#1" class="part_1_form-button">
+                			<span>Хочу спортивные ноги</span>
+            			</a>
+						</div>
+					</form>
+				</div>
+
+			</div>
+			<div id="part-2" class="container-style part-2">
+				<div data-wow-duration="500" data-wow-offset="50" data-wow-delay="400" class="wow slideInLeft part-2-info">
+					<span class="part-2_header-1">
+        					Потому что  у нас
+    				</span>
+					<span class="part-2_header-2">
+        				Классно
+    				</span>
+					<div class="part-2_watch-video">
+						<p>Посмотри две минуты, как мы работаем <br>и выбери бесплатный план</p>
+					</div>
+				</div>
+				<div class="part-2-coach">
+					<img class="part-2-coach-move" src="image/coach.png" alt="" title="">
+					<img class="part-2-coach-img" src="image/coach-1.png" alt="" title="">
+					<a id="one" href="#1" data-wow-duration="2s" data-wow-offset="50" data-wow-delay="800" class=" wow bounce button part-2_watch-video_button">
+                    </a>
+				</div>
+				<div id="modal-container">
+					<span class="start-modal"></span>
+					<div class="modal">
+						<div class="modal-video">
+							<!-- youtube with embed
+							                           <embed class="promo-video" src="https://www.youtube.com/embed/YW9PRkkmScI?controls=0&amp;iv_load_policy=3&amp; showinfo=0" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen>-->
+							<div id="video-placeholder"></div>
+							<span class="close-modal">
+                            X
+                        </span>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div id="part-3" class="container-style part-3">
+
+				<div data-wow-duration="1s" data-wow-delay="400" class="wow slideInLeft part-3-simulators">
+					<div class="part-3-simulators-info">
+						<span>Тренажеры<br>INTERATLETIKA</span>
+					</div>
+				</div>
+				<div data-wow-duration="1s" data-wow-delay="400" class="wow slideInRight part-3-metodics">
+					<div class="part-3-metodics-info">
+						<span>Мотивирующие <br>тренеры</span>
+					</div>
+					<form action="" class="form-2">
+						<input class="input-form-1" type="text" placeholder="Лена" name="txtname">
+						<input class="input-form-1" type="email" placeholder="elena@gmail.ru" name="txtemail">
+						<a href="#1" class="part_2_form-button">
+                		<span>Халявная неделя моя</span>
+                	</a>
+					</form>
+				</div>
+			</div>
+			<div id="part-4" class="container-style part-4">
+				<div data-wow-duration="1s" data-wow-delay="700" data-wow-offset="50" data-wow-delay="400" class="wow fadeInDownBig part-4_header">
+					<span class="part-4_header-1">Спасибо, что</span>
+					<span class="part-4_header-2">Они с нами</span>
+				</div>
+				<div id="da-slider" class="da-slider">
+					<div data-wow-duration="1s" data-wow-delay="800" data-wow-offset="50" data-wow-delay="400" class="wow slideInRight da-slide">
+						<h2>Оля</h2>
+						<span>Тренируется один год</span>
+						<p>Было стремно смотреть в зеркало и я сказал НЕТ. Хватит.Нет не будет больше толстенькой Оли. Что либо говорить про зал нет смысла. Видишь, какой у меня пресс:) Я в восторге! А ты?</p>
+						<div class="da-img"><img src="image/images/1.png" alt="image01" /></div>
+					</div>
+					<div class="da-slide">
+						<h2>Катя</h2>
+						<span>Тренируется два года</span>
+						<p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. Separated they live in Bookmarksgrove right at the coast of the Semantics, a large language ocean.</p>
+						<div class="da-img"><img src="image/images/2.png" alt="image01" /></div>
+					</div>
+					<div class="da-slide">
+						<h2>Сергей</h2>
+						<span>Тренируется три года</span>
+						<p>A small river named Duden flows by their place and supplies it with the necessary regelialia. It is a paradisematic country, in which roasted parts of sentences fly into your mouth.</p>
+						<div class="da-img"><img src="image/images/3.png" alt="image01" /></div>
+					</div>
+					<div class="da-slide">
+						<h2>Антон</h2>
+						<span>Тренируется пять лет</span>
+						<p>Even the all-powerful Pointing has no control about the blind texts it is an almost unorthographic life One day however a small line of blind text by the name of Lorem Ipsum decided to leave for the far World of Grammar.</p>
+						<div class="da-img"><img src="image/images/4.png" alt="image01" /></div>
+					</div>
+					<div class="da-slide">
+						<h2>Лиза</h2>
+						<span>Тренируется один год</span>
+						<p>Even the all-powerful Pointing has no control about the blind texts it is an almost unorthographic life One day however a small line of blind text by the name of Lorem Ipsum decided to leave for the far World of Grammar.</p>
+						<div class="da-img"><img src="image/images/5.png" alt="image01" /></div>
+					</div>
+					<div class="da-slide">
+						<h2>Юля</h2>
+						<span>Тренируется два года</span>
+						<p>Even the all-powerful Pointing has no control about the blind texts it is an almost unorthographic life One day however a small line of blind text by the name of Lorem Ipsum decided to leave for the far World of Grammar.</p>
+						<div class="da-img"><img src="image/images/6.png" alt="image01" /></div>
+					</div>
+					<nav class="da-arrows">
+						<span class="da-arrows-prev"></span>
+						<span class="da-arrows-next"></span>
+					</nav>
+				</div>
+			</div>
+
+			<div id="part-5" class="part-5">
+				<div class="part-5-slogan">
+					<div class="part-5-slogan-container">
+						<a class="part-5-slogan-button" href="#5">Иду тренироваться</a>
+						<span class="part-5-slogan-text"> Я ж не хуже остальных</span>
+					</div>
+				</div>
+				<div class="part-5-location">
+
+					<div data-wow-duration=".8s" data-wow-offset="50" data-wow-delay="400" class=" wow slideInDown part-5-location-map">
+						<img src="image/map.png" class="part-5-location-map-img" alt="" title="" />
+						<div class="part_5-point map-point-1">
+							<span>Львов</span>
+						</div>
+						<div class="part_5-point map-point-2">
+							<span>Киев</span>
+						</div>
+						<div class="part_5-point map-point-3">
+							<span>Одесса</span>
+						</div>
+						<div class="location-map-info">
+							<div class="location-map-info-logo">
+								<span class="logo">
+                                 <image class="logo" src="image/logo/logo.png" alt="" title="" />
+                                 </span>
+								<span class="part_5-slogan">тренажерный зал</span>
+
+							</div>
+							<div class="location-map-info-adress">
+								<span class="city">г. Львов</span>
+								<span class="house">Площа рынок 8</span>
+							</div>
+							<div class="location-map-info-contact">
+								<span class="telephone">050 97 47 121</span><span class="contact-name">Спросить Катю</span>
+							</div>
+
+						</div>
+					</div>
+					<div data-wow-duration="1s" data-wow-delay="700" data-wow-offset="50" data-wow-delay="400" class=" wow slideInRight part-5-location-form">
+						<span class="part_5_form-header-1">Мы тут</span>
+						<span class="part_5_form-header-2">Приходи</span>
+						<form action="" class="form-3">
+							<input class="input-form-1 part_5_form-name" type="text" placeholder="Лена" name="txtname">
+							<input class="input-form-1 part_5_form-mail" type="email" placeholder="elena@gmail.ru" name="txtemail">
+							<a href="#1" class="part_5_form-button">
+                			<span>Тренироваться бесплатно</span>
+                		</a>
+						</form>
+					</div>
+				</div>
+			</div>
+		</div>
+		<footer>
+
+		</footer>
+	</div>
+	<script src="js/jquery-3.3.1.min.js"></script>
+	<script src="js/smoke.js"></script>
+	<script src="https://www.youtube.com/iframe_api"></script>
+	<script src="js/modernizr.custom.28468.js"></script>
+	<script src="js/jquery.cslider.js"></script>
+	<script src="js/wow.min.js"></script>
+	<script src="js/main.js"></script>
+</body>
+
+</html>
